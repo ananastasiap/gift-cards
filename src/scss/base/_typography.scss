@@ -1,0 +1,17 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400px;
+  line-height: 140%;
+  color: $color-primary;
+  // background-color: $color-body-background;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%;
+
+  .about__text {
+    font-size: 1.25rem;
+  }
+}
