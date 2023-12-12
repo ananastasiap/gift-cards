@@ -1,1 +1,9 @@
 @import "normalize.css";
+
+@import "./abstacts/variables";
+
+@import "./base/base";
+@import "./base/utilities";
+@import "./base/typography";
+
+@import "./layout/about";

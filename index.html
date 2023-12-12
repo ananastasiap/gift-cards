@@ -1,14 +1,88 @@
 <!doctype html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Gifts</title>
+  <link rel="icon" href="/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <title>Gift Cards</title>
 </head>
 
 <body>
-  <div id="app"></div>
+  <header class="header u-wrapper">
+    <div class="logo">
+      <img src="/images/icon.svg" alt="" class="logo__icon" width="180" height="48">
+    </div>
+  </header>
+  <section class="about u-wrapper">
+    <h1 class="title">Поздравьте близкого человека с праздником!</h1>
+    <p class="about__text">Выберите открытку и получатель получит ее на свой телефон</p>
+  </section>
+  <section class="congratulation">
+    <section class="cards u-wrapper">
+      <div class="swiper congratulation__swiper congratulation__swiper--card">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide congratulation__card-slide">
+            <img src="./public/images/card1.png" alt="Открытка 1" class="card-image">
+          </div>
+          <div class="swiper-slide congratulation__card-slide">
+            <img src="./public/images/card2.png" alt="Открытка 2" class="card-image">
+          </div>
+          <div class="swiper-slide congratulation__card-slide">
+            <img src="./public/images/card3.png" alt="Открытка 3" class="card-image">
+          </div>
+          <div class="swiper-slide congratulation__card-slide">
+            <img src="./public/images/card4.png" alt="Открытка 4" class="card-image">
+          </div>
+        </div>
+      </div>
+      <div class="swiper congratulation__swiper congratulation__swiper--thumb">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide congratulation__card-thumb">
+            <img src="./public/images/card1.png" alt="Открытка 1" class="card-image">
+          </div>
+          <div class="swiper-slide congratulation__card-thumb">
+            <img src="./public/images/card2.png" alt="Открытка 2" class="card-image">
+          </div>
+          <div class="swiper-slide congratulation__card-thumb">
+            <img src="./public/images/card3.png" alt="Открытка 3" class="card-image">
+          </div>
+          <div class="swiper-slide congratulation__card-thumb">
+            <img src="./public/images/card4.png" alt="Открытка 4" class="card-image">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="form">
+      <form action="">
+        <label class="form__label">
+          <span class="form__label-text">от кого</span>
+          <input type="text" class="form__field" name="sender_name">
+        </label>
+        <label class="form__label">
+          <span class="form__label-text">телефон отправителя</span>
+          <input type="text" class="form__field" name="sender_phone">
+        </label>
+        <label class="form__label">
+          <span class="form__label-text">кому</span>
+          <input type="text" class="form__field" name="reciever_name">
+        </label>
+        <label class="form__label">
+          <span class="form__label-text">телефон получателя</span>
+          <input type="text" class="form__field" name="reciever_phone">
+        </label>
+        <label class="form__label textarea">
+          <span class="form__label-text">поздравительный текст</span>
+          <textarea class="form__field" name="message" placeholder="Напишите теплые слова"></textarea>
+        </label>
+
+        <button type="submit" class="form__button" disabled>Отправить</button>
+      </form>
+    </section>
+  </section>
   <script type="module" src="/src/ts/main.ts"></script>
 </body>
 
