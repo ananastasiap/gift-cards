@@ -1,5 +1,5 @@
-import SwiperClass from "swiper";
+import Swiper from "swiper/bundle";
 
 export const createSwiper = (selector: string) => {
-  return new SwiperClass(selector, {});
+  return new Swiper(selector, {});
 };
