@@ -1,0 +1,25 @@
+.congratulation {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 7.5rem;
+
+  &__swiper--card {
+    max-width: 50rem;
+  }
+
+  .card-image--big {
+    max-width: 36rem;
+  }
+  .card-image--small {
+    max-width: 15rem;
+  }
+
+  .form {
+    display: flex;
+    width: 30rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+}
