@@ -1,8 +1,8 @@
 import "../scss/style.scss";
 import "swiper/css";
-import { createSwiper } from "./modules";
+import { swiperMain } from "./modules";
 
 window.addEventListener("DOMContentLoaded", () => {
-  createSwiper(".congratulation__swiper--thumb");
-  createSwiper(".congratulation__swiper--card");
+  // swiperThumb(".congratulation__swiper--thumb");
+  swiperMain(".congratulation__swiper--card");
 });
