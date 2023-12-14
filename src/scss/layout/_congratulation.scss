@@ -4,22 +4,29 @@
   align-items: start;
   gap: 7.5rem;
 
-  &__swiper--card {
+  .cards {
     max-width: 50rem;
   }
 
-  .card-image--big {
-    max-width: 36rem;
-  }
-  .card-image--small {
-    max-width: 15rem;
+  &__swiper--card {
+    margin-bottom: 1.25rem;
   }
 
-  .form {
-    display: flex;
-    width: 30rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 1.5rem;
+  &__card-slide {
+    border-radius: 2rem;
+    border: 2px solid #4baa00;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  &__card-thumb {
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  .card-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
 }
