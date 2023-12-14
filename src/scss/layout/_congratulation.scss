@@ -29,4 +29,26 @@
     max-width: 100%;
     height: auto;
   }
+
+  .gift__form {
+    max-width: 30rem;
+
+    .form {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+
+      &__label-text {
+        display: block;
+      }
+
+      &__field {
+        width: 100%;
+      }
+
+      .textarea {
+        grid-column: 1 / -1;
+      }
+    }
+  }
 }
