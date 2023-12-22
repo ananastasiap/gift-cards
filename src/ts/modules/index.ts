@@ -1,1 +1,1 @@
-export { createSwiper } from "./swiper.ts";
+export { swiperThumb, swiperMain } from "./swiper.ts";

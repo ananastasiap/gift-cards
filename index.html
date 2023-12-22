@@ -21,8 +21,8 @@
     <h1 class="title">Поздравьте близкого человека с праздником!</h1>
     <p class="about__text">Выберите открытку и получатель получит ее на свой телефон</p>
   </section>
-  <section class="congratulation">
-    <section class="cards u-wrapper">
+  <section class="congratulation u-wrapper">
+    <section class="cards">
       <div class="swiper congratulation__swiper congratulation__swiper--card">
         <div class="swiper-wrapper">
           <div class="swiper-slide congratulation__card-slide">
@@ -56,8 +56,8 @@
         </div>
       </div>
     </section>
-    <section class="form">
-      <form action="">
+    <section class="gift__form">
+      <form action="" class="form">
         <label class="form__label">
           <span class="form__label-text">от кого</span>
           <input type="text" class="form__field" name="sender_name">
@@ -76,7 +76,8 @@
         </label>
         <label class="form__label textarea">
           <span class="form__label-text">поздравительный текст</span>
-          <textarea class="form__field" name="message" placeholder="Напишите теплые слова"></textarea>
+          <textarea class="form__field form__field-textarea" name="message"
+            placeholder="Напишите теплые слова"></textarea>
         </label>
 
         <button type="submit" class="form__button" disabled>Отправить</button>
