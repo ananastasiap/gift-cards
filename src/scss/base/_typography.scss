@@ -30,7 +30,14 @@ body {
   font-weight: 700;
   line-height: 1.2;
 
+  &__card {
+    font-size: 1.75rem;
+    color: #ff4444;
+    margin-bottom: 1.5rem;
+  }
+
   .about__text {
     font-size: 1.25rem;
+    font-weight: 700;
   }
 }
