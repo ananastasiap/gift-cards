@@ -17,6 +17,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.body__card {
+  background-image: linear-gradient(
+    to right top,
+    rgba($color-background-card-first, 0.85),
+    rgba($color-background-card-second, 0.85)
+  );
+}
+
 .title {
   font-size: 2rem;
   font-weight: 700;

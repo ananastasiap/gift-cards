@@ -1,0 +1,16 @@
+.congrats-final {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .card__front {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__text {
+    font-size: 1.25rem;
+    margin-bottom: 2.96rem;
+  }
+}
