@@ -5,6 +5,7 @@ import {
   rearrangeElement,
   makeMask,
   workingWithForm,
+  getData,
 } from "./modules";
 
 window.addEventListener("DOMContentLoaded", () => {
@@ -14,4 +15,5 @@ window.addEventListener("DOMContentLoaded", () => {
   });
   makeMask(".form__field--phone");
   workingWithForm();
+  getData(".card__image", ".card__from", ".card__to", ".card__message");
 });
