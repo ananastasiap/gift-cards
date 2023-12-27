@@ -40,3 +40,29 @@ body {
 .about__text {
   font-size: 1.7rem;
 }
+
+/* MEDIA */
+
+@media screen and (max-width: 1039px) {
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .about__text {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 551px) {
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .about__text {
+    font-size: 1.2rem;
+  }
+}
