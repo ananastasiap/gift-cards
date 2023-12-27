@@ -5,3 +5,10 @@
     margin-bottom: 2.96rem;
   }
 }
+
+/* MEDIA */
+@media screen and (max-width: 551px) {
+  .title {
+    margin-top: none;
+  }
+}

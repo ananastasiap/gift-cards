@@ -1,11 +1,20 @@
 .u-wrapper {
-  padding: 2.5rem 8.12rem 0 15rem;
-}
-
-.u-wrapper-larger {
-  padding: 2.5rem 35rem 0 15rem;
+  padding: 3.5rem 8.12rem 0 14rem;
 }
 
 .stroke {
   -webkit-text-stroke: 0.04rem #94b7fc;
+}
+
+/* MEDIA */
+@media screen and (max-width: 1194px) and (min-width: 1040px) {
+  .u-wrapper {
+    padding: 2.5rem 3.12rem 0 5rem;
+  }
+}
+
+@media screen and (max-width: 1039px) {
+  .u-wrapper {
+    padding: 2rem 3rem 0 3rem;
+  }
 }

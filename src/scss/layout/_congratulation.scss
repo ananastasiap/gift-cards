@@ -1,8 +1,7 @@
 .congratulation {
   display: flex;
-  justify-content: space-between;
   align-items: start;
-  gap: 6rem;
+  gap: 15rem;
 
   .cards {
     max-width: 50rem;
@@ -103,5 +102,58 @@
         }
       }
     }
+  }
+}
+
+/* MEDIA */
+@media screen and (max-width: 1194px) and (min-width: 1040px) {
+  .congratulation {
+    gap: 7rem;
+  }
+}
+
+@media screen and (max-width: 1039px) {
+  .congratulation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .form {
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .cards {
+    width: 46rem;
+  }
+
+  .congratulation .gift__form .form__label-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 479px) and (min-width: 320px) {
+  .cards {
+    width: 35rem;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .cards {
+    width: 30rem;
+  }
+}
+
+@media screen and (max-width: 334px) {
+  .congratulation {
+    gap: 2.5rem;
+  }
+
+  .congratulation .gift__form .form {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
