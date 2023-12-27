@@ -26,16 +26,16 @@
       <div class="swiper congratulation__swiper congratulation__swiper--card">
         <div class="swiper-wrapper">
           <div class="swiper-slide congratulation__card-slide">
-            <img src="./public/images/card1.png" alt="Открытка 1" class="card-image">
+            <img src="./public/images/card1.png" alt="Открытка 1" class="card-image" data-card="card_01">
           </div>
           <div class="swiper-slide congratulation__card-slide">
-            <img src="./public/images/card2.png" alt="Открытка 2" class="card-image">
+            <img src="./public/images/card2.png" alt="Открытка 2" class="card-image" data-card="card_02">
           </div>
           <div class="swiper-slide congratulation__card-slide">
-            <img src="./public/images/card3.png" alt="Открытка 3" class="card-image">
+            <img src="./public/images/card3.png" alt="Открытка 3" class="card-image" data-card="card_03">
           </div>
           <div class="swiper-slide congratulation__card-slide">
-            <img src="./public/images/card4.png" alt="Открытка 4" class="card-image">
+            <img src="./public/images/card4.png" alt="Открытка 4" class="card-image" data-card="card_04">
           </div>
         </div>
       </div>
@@ -79,6 +79,8 @@
           <textarea class="form__field form__field-textarea" name="message"
             placeholder="Напишите теплые слова"></textarea>
         </label>
+
+        <input class="form__card" type="hidden" name="card">
 
         <button type="submit" class="form__button" disabled>Отправить</button>
       </form>
