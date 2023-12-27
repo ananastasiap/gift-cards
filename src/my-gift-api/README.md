@@ -1,3 +1,21 @@
-# node-template-project
+# my-gift-api
 
-## Стартовый шаблон node.js
+### локальный сервер взят из репозитория https://github.com/Quper24/my-gift-api
+
+### установка
+
+```
+npm i
+```
+
+или
+
+```
+yarn
+```
+
+### запуск
+
+```
+node index
+```
