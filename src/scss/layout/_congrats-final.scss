@@ -70,3 +70,56 @@
     margin-bottom: 2.96rem;
   }
 }
+
+/* MEDIA */
+@media screen and (max-width: 625px) {
+  .congrats-final {
+    margin-bottom: 5rem;
+  }
+
+  .congrats-final__text {
+    text-align: center;
+  }
+
+  .congrats-final .card {
+    width: 380px;
+    height: auto;
+  }
+
+  .congrats-final .card__message {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .congrats-final .card__contacts {
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
+
+  .congrats-final .card__message {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .congrats-final .card {
+    width: 360px;
+    height: auto;
+  }
+
+  .congrats-final__text {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  .congrats-final .card {
+    width: 300px;
+    height: auto;
+  }
+
+  .congrats-final .card__back {
+    padding: 3rem 3rem 5rem 3rem;
+  }
+}

@@ -1,8 +1,10 @@
 import "../scss/style.scss";
 import "swiper/css";
-import { swiperMain } from "./modules";
+import { swiperMain, rearrangeElement } from "./modules";
 
 window.addEventListener("DOMContentLoaded", () => {
-  // swiperThumb(".congratulation__swiper--thumb");
   swiperMain(".congratulation__swiper--card");
+  window.addEventListener("resize", () => {
+    rearrangeElement(".card", ".card__title", ".card__contacts");
+  });
 });
